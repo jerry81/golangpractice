@@ -9,3 +9,11 @@ practice repository based on [this link](https://go.dev/doc/tutorial/getting-sta
 3.  updates PATH environment variable 
 4.  may need to restart terminal 
 5.  test with go version 
+
+# dependency tracking
+
+- go.mod defines a module and tracks packages 
+- created with cli
+```console
+go mod init example/hello
+```
