@@ -48,3 +48,16 @@ http_proxy=127.0.0.1:4780 https_proxy=127.0.0.1:4780 go mod tidy
 ```console
 go mod edit -replace example.com/greetings=../greetings
 ```
+
+# error handling 
+
+- import the "errors" package
+- this creates an error 
+```go
+errors.New("error message") 
+```
+- logger uses "log" package 
+- use this to log errors 
+```go
+log.Fatal(errorObj)
+```
