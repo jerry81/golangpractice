@@ -34,3 +34,8 @@ http_proxy=127.0.0.1:4780 https_proxy=127.0.0.1:4780 go mod tidy
 ```
 
 - the environment variables are necessary when running, too.
+
+# create a module 
+
+- again, used go mod init packagename/modulename to bootstrap it
+- then created go file with main function 
