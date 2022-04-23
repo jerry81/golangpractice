@@ -1,7 +1,9 @@
-package main
+package main // way to group functions 
 
-import "fmt"
+import "fmt" // format package 
 
-func main() {
-    fmt.Println("Hello, World!")
+import "rsc.io/quote"
+
+func main() { // entrypoint 
+    fmt.Println(fmt.Println(quote.Go()))
 }
