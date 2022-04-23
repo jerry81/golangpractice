@@ -5,5 +5,6 @@ import "fmt" // format package
 import "rsc.io/quote"
 
 func main() { // entrypoint 
-    fmt.Println(fmt.Println(quote.Go()))
+    fmt.Println("hello")
+    fmt.Println(quote.Go())
 }

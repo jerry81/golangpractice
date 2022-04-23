@@ -32,3 +32,5 @@ go mod tidy
 ```console
 http_proxy=127.0.0.1:4780 https_proxy=127.0.0.1:4780 go mod tidy 
 ```
+
+- the environment variables are necessary when running, too.
